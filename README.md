@@ -1,6 +1,6 @@
 # PDF Combiner
 
-A simple local PDF combiner because PDF combining websites are awful. Make with Claude Code.
+A simple local PDF combiner because PDF combining websites are awful. Made with Claude Code.
 
 ## Requirements
 
