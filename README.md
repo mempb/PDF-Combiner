@@ -1,6 +1,6 @@
 # PDF Combiner
 
-A simple PDF combiner made with Python, because PDF combining websites are awful.
+A simple command-line tool to merge multiple PDFs into one, because PDF combining websites are awful.
 
 ## Requirements
 
