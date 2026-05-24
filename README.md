@@ -4,7 +4,7 @@ A simple PDF combiner made with Python, because PDF combining websites are awful
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.10+
 - [pypdf](https://pypi.org/project/pypdf/)
 
 ## Installation
@@ -16,19 +16,26 @@ pip install pypdf
 ## Usage
 
 ```bash
-python pdfCombine.py <file1.pdf> <file2.pdf> [output.pdf]
+python combine.py <file1.pdf> <file2.pdf> [file3.pdf ...] <output.pdf>
 ```
 
 - `file1.pdf` — first PDF (required)
 - `file2.pdf` — second PDF, appended after the first (required)
-- `output.pdf` — name of the combined file (optional, defaults to `combined.pdf`)
+- `file3.pdf ...` — any number of additional PDFs (optional)
+- `output.pdf` — name of the combined file (required)
 
 ## Examples
 
 ```bash
-# Output saved as combined.pdf
-python pdfCombine.py resume.pdf cover_letter.pdf
+# Combine two PDFs
+python combine.py pdf1.pdf pdf2.pdf mypdf.pdf
 
-# Output saved as application.pdf
-python pdfCombine.py resume.pdf cover_letter.pdf application.pdf
+# Combine three or more PDFs
+python combine.py pdf1.pdf pdf2.pdf pdf3.pdf mypdf.pdf
+```
+
+## Help
+
+```bash
+python combine.py --help
 ```
