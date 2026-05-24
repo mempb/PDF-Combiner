@@ -1,6 +1,6 @@
 # PDF Combiner
 
-A simple local PDF combiner because PDF combining websites are awful.
+A simple PDF combiner made with Python, because PDF combining websites are awful.
 
 ## Requirements
 
